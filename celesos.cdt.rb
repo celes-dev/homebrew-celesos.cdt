@@ -1,4 +1,4 @@
-class EosioCdt < Formula
+class CelesosCdt < Formula
 
    homepage "https://github.com/celes-dev/celesos.cdt"
    revision 0
