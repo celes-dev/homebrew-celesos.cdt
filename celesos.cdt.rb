@@ -1,8 +1,8 @@
 class CelesosCdt < Formula
 
-   homepage "https://github.com/celes-dev/celesos.cdt"
+   homepage "https://github.com/eosio/celesos.cdt"
    revision 0
-   url "https://github.com/celes-dev/celesos.cdt/archive/v0.9.0.tar.gz"
+   url "https://github.com/celes-dev/celesos.cdt/archive/celesos.cdt-0.9.0.mojave.bottle.tar.gz.tar.gz"
    version "0.9.0"
    
    option :universal
@@ -21,8 +21,8 @@ class CelesosCdt < Formula
    depends_on :arch =>  :intel
   
    bottle do
-      root_url "https://github.com/celes-dev/celesos.cdt/releases/download/v0.9.0"
-      sha256 "d0d1a5dba94497f93b82f40fb9a9388e40453695db21ba522ee566aaf1fce85d" => :mojave
+      root_url "https://github.com/celes-dev/celesos.cdt/releases/download/v0.9.0/celesos.cdt-0.9.0.mojave.bottle.tar.gz"
+      sha256 "6dfca6c4cbbdf91d57bd6d0146a2dc937ff79593507b6b10a8e1bcb008f0fa43" => :mojave
    end
    def install
       raise "Error, only supporting binary packages at this time"
