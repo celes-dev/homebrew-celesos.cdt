@@ -22,7 +22,7 @@ class CelesosCdt < Formula
   
    bottle do
       root_url "https://github.com/celes-dev/celesos.cdt/releases/download/v1.0.0"
-      sha256 "905d26d106ba6126f4bc47cb4b5538b98d73b963bc1aebc934bc59bb7c24d59b" => :mojave
+      sha256 "b35718ad16b13cb7a39c3cb5c05f1126aa5f7eaaca77cf17fba0ec9bb019f621" => :mojave
    end
    def install
       raise "Error, only supporting binary packages at this time"
